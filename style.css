@@ -1,0 +1,38 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(img/4.png);
+	color: white;
+}
+body a
+{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 2px solid red;
+}
+
+body h2
+{
+	text-align: center;
+}
+
+fieldset
+{
+	border: 2px solid gray;
+	text-align: center;
+}
+
+label
+{
+	display: block;
+	margin: 5px;
+}
+
+.next
+{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}

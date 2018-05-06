@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ograniczona ilość znaków</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+<h2>Skrypt skracający długość komentarza</h2>
+    <form action="" method="post" id="formularz" novalidate>
+        <fieldset>
+            <p>Poniżej wpisz swój komentarz</p>
+            <div><label for="komentarz">Komentarz(max. 120 znaków)</label><textarea name="komentarz" id="komentarz" maxlength="120" rows="10" cols="60" required></textarea></div>
+            <div><label for="liczbaZnakow">Liczba znaków</label><input type="number" name="liczbaZnakow" id="liczbaZnakow"></div>
+            <div><label for="wynik">Wynik(max. 100 znaków)</label><textarea name="wynik" id="wynik" rows="10" cols="60"></textarea></div>
+            
+            <div><input type="submit" value="Wyślij" id="submit"></div>
+        </fieldset>
+    </form>
+<a href="index2.html">Previous script</a><div class="next"><a href="index4.html">Next script</a></div>
+
+    <script type="text/javascript" src="scripts/script3.js"></script>
+</body>
+</html>

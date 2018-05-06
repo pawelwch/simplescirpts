@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netflix</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h2>Skrypt liczący miesięczną subskrypcję</h2>
+    <fieldset>
+        <legend>Subskrybuj Netflix</legend>
+        <p>Wypełnij formularz, by zgłosić chęć subskrypcji. Otrzymasz 20% zniżki, jeśli zamówisz członkostwo na dłużej niż rok!</p>
+
+        <form action="" method="post" id="formularz">
+            <div><label for="type">Typ </label><select name="type" id="type" required>
+                <option value="basic">Standard - 10.00zł</option>
+                <option value="premium">Premium - 15.00zł</option>
+                <option value="gold">Gold - 20.00zł</option>
+                <option value="platinum">Platinum - 25.00zł</option>
+                </select></div>
+            <div><label for="years">Na ile lat? </label><input type="text" name="years" id="years" min="1" required></div>
+            
+
+            <input type="submit" id="submit" value="Oblicz">
+            <div><label for="cost">Koszt </label><input type="text" name="cost" id="cost" disabled></div>
+        </form>
+    </fieldset>                  
+    <a href="index4.html">Previous script</a><div class="next"><a href="index6.html">Next script</a></div>
+
+    <script type="text/javascript" src="scripts/script5.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Dodawanie osoby</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+
+
+<body>
+	<h2>Skrypt dodający pracownika do listy</h2>
+	<form action="" method="post" id="formularz" novalidate>
+	
+		<fieldset>
+			<legend>Dodaj pracowanika</legend>
+			<div><label for="firstName">Imię </label><input type="text" name="firstName" id="firstName" required></div>
+			<div><label for="lastName">Nazwisko </label><input type="text" name="lastName" id="lastName" required></div>
+			<div><label for="department">Dział </label><select name="department" id="department">
+				<option value="Księgowość">Księgowość</option>
+				<option value="Administracja">Administracja</option>
+				<option value="Zasoby ludzkie">Zasoby ludzkie</option>
+				<option value="Marketing">Marketing</option>
+				</select></div>
+				<input type="submit" name="submit" value="Wyślij" id="submit">
+		</fieldset>
+
+			<div id="output"></div>
+	</form>
+<a href="index9.html">Previous script</a><div class="next"><a href="index11.html">Next script</a></div>
+
+<script type="text/javascript" src="scripts/script10.js"></script>
+</body>
+</html>

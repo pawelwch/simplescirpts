@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+
+<h2>Formularz liczący kwotę do zapłaty</h2>
+	<form action="" method="post" id="formularz">
+		<fieldset>
+			<div><label for="quantity">Sztuk(szt.)</label><br><input type="number" name="quantity" id="quantity" value="1" min="1" required></div>
+			<div><label for="price">Cena za sztukę(zł)</label><br><input type="text" name="price" id="price" value="1.00" required></div>
+			<div><label for="tax">Podatek w procentach(%)</label><br><input type="text" name="tax" id="tax" value="0.0" required></div>
+			<div><label for="discount">Rabat(zł)</label><br><input type="text" name="discount" id="discount" value="0.00" required></div>
+				
+			<div><input type="submit" value="Oblicz" id="submit"></div>
+			<div><span class="total"><label for="total">Łączna kwota(zł)</label></span><br><input type="text" name="total" id="total" value="0.00"></div>
+			
+		</fieldset>
+	</form>
+<div class="next"><a href="index2.html">Next script</a></div>
+<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
+
+
+
